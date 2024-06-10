@@ -1,0 +1,26 @@
+Variable Rules
+1. Cannot be a resevered keyword
+    e.g.: if, else, var, etc
+
+2. Should be Meaningful --> firstName
+    e.g.: Not Meaningful: a, b, x, a1, etc
+
+3. Cannot start with a number
+
+4. Cannot contain a space or hyphen( - )
+
+        Use camel notation
+        e.g.: let firstName 
+        (first letter of first word should be lower case, and the first letter of every word after should be upper case)
+
+5. Case sensitive
+    let firstName != let FirstName
+
+6. Declaring multiple Variable
+    - On one line and separate using a comma
+        e.g.: let firstName, lastName; (Not initalized/Undefined)
+                let firstName = 'Jules', lastName = 'Tahal'; (Initalized/Undefined)
+
+        BEST PARTICE - Declare each variable on a single line
+            e.g.: let firstName = 'Jules';
+                     let lastName = 'Tahal'; 
