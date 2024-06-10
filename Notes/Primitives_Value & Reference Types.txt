@@ -11,3 +11,9 @@ Primitives/Value Types
     let isApproved = true; // Boolean Literal
     let firstName; // Undefined or let firstName = undefined;
     let lastName = null;
+
+
+Reference Types
+   Object 
+   Array 
+   Function

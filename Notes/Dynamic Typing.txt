@@ -1,0 +1,30 @@
+let name = "Jules"; //String Litersl
+let age = 30; //Number Literal
+let isApproved = true; // Boolean Literal
+let firstName; // Undefined or let firstName = undefined;
+let selectedColor= null;
+
+
+typeof operator
+
+e.g.: (type in console)
+>typeof age
+< "number"
+
+> age = 30.1
+<30.1
+>typeof age
+< "number"
+
+NB: In JavaScript there isn't floating point numbers (30.1) and integers
+ALL NUMBER ARE OF TYPE NUMBER
+
+> typeof isApproved
+< "boolean"
+
+> typeof firstName
+< "undefined"
+
+> typeof selectedColor
+< "object"
+
