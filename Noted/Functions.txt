@@ -1,0 +1,40 @@
+A function is a fundamental building block of JS.
+A set of statements that performs a task or calculates a value.
+
+e.g.: 1
+    function greet() {
+         console.log("Hello World");
+    }
+    greet();
+
+Passing a parameter
+(name)---> parameter
+
+    function greet(name) {
+        console.log("Hello " + name);
+    }
+    greet("Jules");
+    greet("Mary");
+
+    ("Jules") ---> Argument
+
+Performing a task (Display something on the console)
+Multiple parameter
+    function greet(name, lastName) {
+        console.log("Hello " + name + ' ' + lastName);
+    }
+    greet("Jules", "Tahal");
+
+
+TYPES OF FUNCTIONS
+//Calculates a value
+    function square(number) {
+  return number * number;
+}
+
+let number = square(2);
+console.log(number);
+
+or
+
+console.log(square(2));

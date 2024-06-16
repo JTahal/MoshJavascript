@@ -14,3 +14,6 @@ Add a item to list
 let selectedColor = ['red', 'blue'];
 selectedColor[2] = 'green';
 console.log(selectedColor);
+
+Return the amount of items in a list
+console.log(selectedColor.length);
