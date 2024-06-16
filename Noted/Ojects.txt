@@ -1,0 +1,28 @@
+An object in JS is like an object in real life
+
+e.g.: A Person
+    a person has a name, age, address etc <-- these are a property of a person
+
+e.g.: 
+
+let name = "Jules";
+let age = 36;
+instead of declearing two variables that are related (in this case a person propertie/keys), we can declear a person object.
+{ } <--- object Literal
+let or const person = {
+    name: 'jules',
+    age: 36
+    };
+
+console.log(person)
+
+Change the name of person
+    1. Dot notation
+    person.name = "john";
+    console.log(person.name);
+
+    2. Bracket Notation 
+    person['name'] = 'Jules';
+    console.log(person.name);
+
+    Dot Notation is mostly use

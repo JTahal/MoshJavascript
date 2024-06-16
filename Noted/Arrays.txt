@@ -1,0 +1,16 @@
+Dealing with a list of object
+[ ] <---- empty array or array Literal
+let selectedColor = [];
+
+e.g.:
+
+let selectedColor = ['red', 'blue'];
+console.log(selectedColor);
+
+Display first element in the array
+console.log(selectedColor[0]);
+
+Add a item to list
+let selectedColor = ['red', 'blue'];
+selectedColor[2] = 'green';
+console.log(selectedColor);
