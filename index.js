@@ -1,9 +1,12 @@
-//Ternery or conditional operator
-//If a customer has more than 100 points, 
-//they are a gold customer, 
-//otherwise, they are a silver customer.
+// Disions based onmultiple conditions
+//Logical AND (&&), Return true if both operands are TRUE
+console.log(true && true); //---->true
+console.log(false && true); //----> False
+console.log(false && false); //----> False
 
-let points = 110;
-let type = points > 100 ? 'goal' : 'silver';
+//e.g.:
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
 
-console.log(type);
+console.log(eligibleForLoan);
