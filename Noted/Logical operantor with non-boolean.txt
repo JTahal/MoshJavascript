@@ -1,0 +1,13 @@
+false || 'Jules'  ---->"Jules"
+
+Falsy (not a boolean false):
+undefined
+null
+0
+boolean false
+' '  (empty string)
+NaN (Not a number)
+
+Anything that is not Falsy is Truthy
+
+Short-circuting
