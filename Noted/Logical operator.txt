@@ -1,0 +1,37 @@
+// Disions based onmultiple conditions
+//Logical AND (&&), Return true if both operands are TRUE
+console.log(true && true); //---->true
+console.log(false && true); //----> False
+console.log(false && false); //----> False
+
+//e.g.:
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+
+console.log(eligibleForLoan);
+
+// Logical OR (||)
+//Return TRUE if one of the operands is TRUE
+console.log(true || true); //---->true
+console.log(false || true); //----> True
+console.log(false || false); //----> False
+
+let eligibleForLoans = highIncome || goodCreditScore;
+
+console.log(eligibleForLoan);
+
+// NOT (!)
+//Return TRUE if one of the operands is TRUE
+console.log(true || true); //---->true
+console.log(false || true); //----> True
+console.log(false || false); //----> False
+
+let highIncome = false;
+let goodCreditScore = false;
+let eligibleForLoan = highIncome || goodCreditScore;
+console.log("Eligible", eligibleForLoan);
+
+//NOT (!)
+let applicationRefused = !eligibleForLoan;
+console.log("Application Refused", applicationRefused);
